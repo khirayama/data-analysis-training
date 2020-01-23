@@ -3,6 +3,8 @@
 ## Memo
 
 - Juypter Notebookで補完ってできないの...？
+- JupyterLabというのがあるらしい
+- VSCodeでもできるっぽい？
 
 ## Methods
 
