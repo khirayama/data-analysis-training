@@ -6,6 +6,18 @@
 - JupyterLabというのがあるらしい
 - VSCodeでもできるっぽい？
 
+## Steps
+
+- データを集める
+- 前処理
+- 分析
+- 評価
+- 考察
+
+- とりあえずdataFrameに打ち込む
+- データをちゃんと読む
+- グラフとかにして関係をみてみる
+
 ## Snippets
 
 <details>
@@ -31,6 +43,38 @@ import seaborn as sns
 from sklearn.datasets import load_boston
 boston = load_boston()
 print(boston.DESCR)
+```
+</details>
+
+<details>
+<summary>linerRegression.fit</summary>
+
+```py
+lr = LinearRegression()
+
+x_column_list = ['RM']
+y_column_list = ['PRICE']
+
+data_boston_x = data_boston[x_column_list]
+data_boston_y = data_boston[y_column_list]
+
+lr.fit(data_boston_x, data_boston_y)
+```
+</details>
+
+<details>
+<summary>linerRegression.coef_</summary>
+
+```py
+print(lr.coef_)
+```
+</details>
+
+<details>
+<summary>linerRegression.intercept_</summary>
+
+```py
+print(lr.intercept_)
 ```
 </details>
 
