@@ -3,3 +3,7 @@
 ## Memo
 
 - Juypter Notebookで補完ってできないの...？
+
+## Methods
+
+- 
