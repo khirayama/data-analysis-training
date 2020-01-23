@@ -22,12 +22,25 @@ import seaborn as sns
 
 ## Methods / Property
 
+### sklearn
+
 <details>
-<summary>`data.DESCR`</summary>
+<summary>data.DESCR</summary>
 
 ```py
 from sklearn.datasets import load_boston
 boston = load_boston()
 print(boston.DESCR)
+```
+</details>
+
+### pandas
+
+<details>
+<summary>pd.DataFrame</summary>
+
+```py
+data_boston = pd.DataFrame(boston.data, columns=boston.feature_names)
+data_boston['PRICE'] = boston.target
 ```
 </details>
