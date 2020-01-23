@@ -44,3 +44,30 @@ data_boston = pd.DataFrame(boston.data, columns=boston.feature_names)
 data_boston['PRICE'] = boston.target
 ```
 </details>
+
+<details>
+<summary>dataFrame.head</summary>
+
+```py
+data_boston.head()
+data_boston.tail()
+```
+</details>
+
+### seaborn
+
+<details>
+<summary>sns.jointplot</summary>
+
+```py
+sns.jointplot('RM', 'PRICE', data=data_boston)
+```
+</details>
+
+<details>
+<summary>sns.pairplot</summary>
+
+```py
+sns.pairplot(data_boston, vars=['PRICE', 'RM', 'DIS'])
+```
+</details>
