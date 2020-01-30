@@ -1,5 +1,9 @@
 ## Set up
 
+```
+$ jupyter notebook
+```
+
 ## Memo
 
 - Juypter Notebookで補完ってできないの...？
