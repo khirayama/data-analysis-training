@@ -1,14 +1,3 @@
-## Set up
-
-```
-$ jupyter notebook
-```
-
-## Memo
-
-- Juypter Notebookで補完ってできないの...？
-- JupyterLabというのがあるらしい
-- VSCodeでもできるっぽい？
 
 ## Steps
 
@@ -30,3 +19,9 @@ $ jupyter notebook
 - 正則化: パラメータに制約を課すこと。それにより過学習を防いだりする。
 - ラッソ回帰: L1正則化(パラメータの絶対値の和を用いた正則化)項を用いた回帰
 - リッジ回帰: L2正則化(パラメータの絶対値の二乗和を用いた正則化)項を用いた回帰
+
+## Memo
+
+- Juypter Notebookで補完ってできないの...？
+- JupyterLabというのがあるらしい
+- VSCodeでもできるっぽい？
