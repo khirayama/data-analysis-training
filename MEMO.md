@@ -167,3 +167,7 @@
 - Juypter Notebookで補完ってできないの...？
 - JupyterLabというのがあるらしい
 - VSCodeでもできるっぽい？
+
+## Refs
+
+- [Np-Ur/PythonBook: 「Pythonと実データで遊んで学ぶ データ分析講座」 サポートページ](https://github.com/Np-Ur/PythonBook)
